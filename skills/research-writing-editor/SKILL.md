@@ -1,7 +1,7 @@
 ---
 name: research-writing-editor
 license: MIT
-description: Revise research-paper arguments and prose while preserving evidence, technical meaning, and approved text. Use for unclear motivation, disconnected literature, notebook-like Methods, number-heavy Results, repetitive Discussion, defensive prose, and Chinese-English manuscript revision. Supports a passage, section, or full draft; does not run new experiments or substitute for literature verification, statistical analysis, or document-formatting tools.
+description: Revise research-paper arguments and prose while preserving evidence, technical meaning, and approved text. Use for unclear motivation, disconnected literature, notebook-like Methods, number-heavy Results, cross-section semantic repetition, repetitive Discussion, defensive prose, and Chinese-English manuscript revision. Supports a passage, section, or full draft; does not run new experiments or substitute for literature verification, statistical analysis, or document-formatting tools.
 ---
 
 # Research Writing Editor
@@ -23,7 +23,7 @@ Read only the guide(s) needed for the identified problem. Use the section guide 
 | Reader's difficulty or requested task | Read |
 | --- | --- |
 | Motivation is a task list; the gap is reverse-engineered; related work is disconnected; novelty is unclear | [Argument and literature](references/argument-and-literature.md) |
-| Abstract, Introduction, Methods, Results, or Discussion has an unclear role or sequence | [Section writing](references/section-writing.md) |
+| Section roles are unclear, or the same mechanism, condition or explanation recurs across sections | [Section writing](references/section-writing.md) |
 | Wording changes causality, generality, comparison, uncertainty, optimality, or demonstrated capability | [Evidence and claim strength](references/evidence-and-claims.md) |
 | Stiff sentences, vague nouns, unexplained terms, unnecessary defence, excessive compression | [Prose and terminology](references/prose-and-terminology.md) |
 | Translation or bilingual synchronization | [Bilingual revision](references/bilingual-revision.md) |
@@ -51,7 +51,8 @@ Leave already-clear prose alone. A change may be a word, a sentence, a local reo
 4. **Follow information dependencies.** Introduce the object before its properties, a quantity's meaning before its calculation when needed, and the output of one step before the next consumes it. Connectives should express a relationship that already exists.
 5. **Keep concepts distinct.** One referent should have a stable name; related but different referents should not be collapsed for lexical uniformity. Define once when needed, then use clear short forms.
 6. **Distinguish observation, interpretation, and contribution.** Identify whose finding is being reported. Do not upgrade an optimization score into perceptual quality, an association into causation, or a demonstration into established effectiveness.
-7. **Respect the author's voice.** Repair the obstacle rather than recasting all prose in a generic assistant style. Long and short sentences, active and passive voice, and technical terminology can all be appropriate.
+7. **Read cumulatively.** For linked-section or whole-paper work, consider what the reader already knows. Rewording the same explanation does not make it new information. Give full explanations a primary home, and retain later mentions when they add evidence, interpretation or a necessary local condition. Use the section guide to distinguish useful recurrence from repeated teaching; do not impose a once-only rule.
+8. **Respect the author's voice.** Repair the obstacle rather than recasting all prose in a generic assistant style. Long and short sentences, active and passive voice, and technical terminology can all be appropriate.
 
 ## Reread and stop
 

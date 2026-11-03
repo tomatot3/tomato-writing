@@ -55,3 +55,18 @@ The revised output stated the concrete dependency, preserved the cited mechanism
 ## What this review establishes
 
 The skill produced usable edits in the eight observed synthetic cases, and one under-explained transition led to a targeted correction and a new transfer exercise. It does not establish effectiveness on every discipline, full-length manuscript, or document format. The package validator separately checks structure and links, not these editorial decisions.
+
+## Cross-section semantic repetition (2026-11-03)
+
+One fresh agent received the updated skill and a synthetic urban-heat manuscript excerpt, without the checks field or prior expected edits. It retained independent caption context, assigned measurement details to Methods, replaced the procedural Results preamble with the 1.7 °C finding, and kept the Discussion distinction between air and surface temperature.
+
+Actual output included:
+
+> Methods opening: We compared planted and paved zones in twelve parks.
+> Methods measurement: Sensors measured air temperature at 1.5 m in both zone types on the same three cloudless days.
+> Results: On the three sampled days, planted zones averaged 1.7 °C cooler than paved zones.
+> Discussion: The observed contrast concerns pedestrian-height air temperature rather than surface temperature.
+
+The evaluator also expanded the already adequate abstract to include height and sample count, and justified the Results time reminder as preventing an overly general interpretation. Those additions were not necessary for the requested targeted edit. The section guide was clarified: standalone reading permits needed recurrence, but does not justify automatically adding all design details or reminders against hypothetical overreading. The revised clarification was checked in the guide; no second independent model run was performed.
+
+This exercise tests the new editorial decision in one domain, not full-paper effectiveness. The private manuscript review is kept outside the public package.

@@ -71,3 +71,17 @@ A title should identify the actual research task or contribution without confusi
 Headings should help readers find conceptual stages. Avoid turning every operation into a miniature heading. Numbering, Methods location, supplementary policy, abstract limits, and citation style are venue-specific and must be verified when they matter.
 
 The main text should support basic understanding without requiring a reader to reconstruct the argument from SI. SI can extend evidence and detail while keeping accurate links to the final main text.
+
+## Cross-section repetition and cumulative reading
+
+A passage can be clear in isolation and still make the paper tiring. Repeating a mechanism or qualification in new words can repeatedly reset the reader to the beginning. Review information by meaning and function, not just matching words or counting occurrences.
+
+For a whole-paper or linked-section request, follow recurring explanations through the reading order. Ask what is already established and what this occurrence adds. Choose a primary location for the full explanation. Elsewhere, keep the part needed for a new purpose, use an unambiguous short reference, or remove the repeated explanation. Do not append a reminder simply because a hypothetical reader might have forgotten.
+
+Useful recurrence changes the reader's understanding: an abstract introduces the central idea; Methods defines it and gives its procedure; Results reports what happened under that procedure; Discussion explains what the finding means. Repeating the procedure before interpreting every result does not perform a new function. Likewise, a framework overview, contribution list and Methods opening should not all retell the same sequence at the same level of detail. Assign them distinct jobs rather than automatically deleting any one of them.
+
+Conditions need the same judgment. Define a shared experimental condition in the design section. Retain a compact condition beside a comparison if omitting it would change the apparent claim. Remove later enumerations that add no new scope information. In Discussion, carry a condition forward when its consequence matters, rather than merely reminding readers that it exists. A boundary discussed once does not require a disclaimer after every positive result.
+
+Do not enforce “say it only once.” Abstracts, figure legends, table notes and SI may need to stand alone. This permits necessary recurrence; it is not a reason to add every design detail to an already adequate abstract or caption. Likewise, do not retain a reminder solely to prevent an unsupported hypothetical overreading. Formal definitions may expand brief earlier introductions. Repeated terminology helps readers track the same object; replacing it with synonyms can make the paper harder to follow. Keep numerical uncertainty, manual intervention, or other facts where they determine the meaning of a reported result. A source-analysis explanation and an algorithmic definition may concern the same object while adding different knowledge.
+
+In an analysis, show the actual recurring passages, their locations and functions, then specify which occurrence to retain, shorten or remove. In a revision, reread across the affected sections in order: check that the first full explanation still exists, later references remain intelligible, and Results and Discussion advance beyond Methods. Do not create a separate audit workflow for a one-sentence edit.

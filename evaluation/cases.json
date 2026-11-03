@@ -102,5 +102,21 @@
       "no fieldwide failure or invented outcome",
       "problem leads to study"
     ]
+  },
+  {
+    "id": "cumulative-reading",
+    "domain": "urban heat field study",
+    "task": "Review these linked manuscript passages for semantic repetition. Give targeted revisions only where needed and explain what should remain. Do not redesign the study.",
+    "facts": "The comparison uses twelve parks on the same three cloudless days. Air temperature is measured at 1.5 m. Differences concern paved versus planted zones. The supplied estimates are descriptive; no additional design or findings are supplied. Abstracts and captions must remain understandable independently.",
+    "draft": "Abstract: We compared temperatures in planted and paved park zones on three cloudless days. Methods opening: In twelve parks we measured air temperature at 1.5 m in planted and paved zones on three cloudless days. Methods measurement: Sensors measured air temperature at 1.5 m in the twelve parks on the same three cloudless days. Results: Because measurements in the twelve parks were made at 1.5 m on the same three cloudless days, the planted and paved zones could be compared. Planted zones averaged 1.7 °C cooler. Discussion: Temperatures were measured at 1.5 m in twelve parks on the same three cloudless days, allowing comparison of planted and paved zones. The observed contrast concerns pedestrian-height air temperature rather than surface temperature. Figure caption: Paired zone temperatures in twelve parks on the same three cloudless days; air temperature at 1.5 m.",
+    "checks": [
+      "identify semantic recurrence across all supplied sections",
+      "retain independent abstract and caption context",
+      "assign full measurement specification one main-text home",
+      "Results foregrounds finding instead of reteaching design",
+      "retain substantive Discussion distinction between air and surface temperature",
+      "no invented causality or speculative caveats",
+      "do not delete repeated terminology merely to vary words"
+    ]
   }
 ]

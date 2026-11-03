@@ -57,3 +57,5 @@ Behavioural evaluation uses [synthetic cases](evaluation/cases.json) and a [revi
 The skill edits the presentation of research. It does not invent evidence, run new experiments, replace statistical analysis, assume current journal rules, or authorize publication. It does not treat confidence intervals, passive voice, long sentences, or technical nouns as inherently undesirable.
 
 Licensed under the [MIT License](LICENSE). Reuse and modification are permitted with the copyright and license notice retained.
+
+The skill also checks semantic repetition across sections: repeated explanations may burden cumulative reading even when their wording differs. It assigns explanations a primary home while preserving standalone abstracts and captions, meaningful comparison conditions, and later mentions that add evidence or interpretation.

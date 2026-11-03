@@ -93,3 +93,11 @@ The object, action, conditions, and order are clear. Replacing it with 'We imple
 A paper distinguishes a physical specimen, its scan, a fitted model, and a rendered view. Calling all four 'the digital object' obscures where measurements, fitting errors, and visual changes occur.
 
 Use stable names for each referent. When a later paragraph concerns only the rendering, a short local term is fine. Terminology consistency is conceptual, not just lexical.
+
+## 11. A repeated condition with different possible jobs
+
+**Draft pattern:** An abstract introduces a model fitted under fixed illumination. The Methods opening, fitting subsection, Results opening and Discussion each repeat that illumination is fixed and the model is fitted to the observed images.
+
+**Decision:** Keep the concise abstract scope and the formal Methods specification. If a Results comparison uses the same illumination for both methods, retain the compact comparison condition. Delete a Results preamble that simply reteaches fitting. In Discussion, explain what fixed illumination means for interpreting material estimates if that consequence is relevant; do not repeat the fitting sequence or speculate about untested lighting failures.
+
+The repeated words are not the problem. The issue is whether each occurrence adds a new role or just makes the reader restart. Do not remove caption conditions that are needed to interpret a figure independently.
