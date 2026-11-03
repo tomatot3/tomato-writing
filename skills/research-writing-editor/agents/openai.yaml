@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Writing Editor"
+  short_description: "Clear research arguments without flattening the evidence"
+  default_prompt: "Use $research-writing-editor to revise this manuscript passage for a first-time reader, preserving evidence, technical meaning, and approved wording."

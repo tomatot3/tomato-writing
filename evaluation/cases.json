@@ -1,0 +1,106 @@
+[
+  {
+    "id": "clinical-results",
+    "domain": "observational clinical research",
+    "task": "Revise the Results paragraph into natural academic English. Reduce unnecessary defensive writing while preserving the result.",
+    "facts": "Observational cohort at four clinics, 1,240 adults. Adjustment includes age, sex, baseline severity. Rate ratio 0.82, 95% CI 0.73–0.93. No randomization or subgroup analysis.",
+    "draft": "The treatment reduced admissions by 18%. The adjusted rate ratio was 0.82 (95% CI 0.73–0.93). However, this result cannot be interpreted as proof that all genetic populations, other health systems, or future environmental conditions would show the same benefit.",
+    "checks": [
+      "association not causation",
+      "retain estimate and meaningful CI",
+      "remove unsupported hypothetical subgroups",
+      "no invented analysis"
+    ]
+  },
+  {
+    "id": "algorithm-condition",
+    "domain": "discrete optimization",
+    "task": "Make this Methods passage less like implementation notes. Keep it short and technically accurate.",
+    "facts": "Finite candidates. Valid upper bound. Search can stop at a time limit. Exhaustive termination with a feasible solution certifies an optimum within the candidate set. If interrupted with a feasible solution, returns best found. If none was found, reports no feasible solution found. Do not claim mathematical infeasibility from interruption.",
+    "draft": "The algorithm is globally optimal after it finishes. A timer runs in the loop. If the time limit is hit, we return the incumbent solution. If the incumbent is null, a no-solution flag is emitted. This has been checked and logged.",
+    "checks": [
+      "qualify optimality by full search and finite candidates",
+      "distinguish no solution found from infeasibility",
+      "retain meaningful interrupted-search behavior",
+      "remove logging prose"
+    ]
+  },
+  {
+    "id": "historical-motivation",
+    "domain": "archival history",
+    "task": "Improve the motivation in this Introduction paragraph without turning it into a list of papers or a technology proposal.",
+    "facts": "Study concerns the chronology of a poet’s journey and whether a poem predates a political event. Two memoirs date the journey to 1842. Three letters bearing contemporary postmarks place the poet at the destination in late 1841. Prior accounts follow the memoir dates. No evidence about all historians or all archival research is supplied.",
+    "draft": "Existing research lacks a comprehensive digital chronology framework. Memoirs give the date as 1842. Letters have dates from 1841. Therefore, a digital framework is required. Our work compares letters and memoirs.",
+    "checks": [
+      "question arises from chronological conflict and interpretive consequence",
+      "no invented fieldwide lack",
+      "no required digital framework",
+      "preserve sources and dates"
+    ]
+  },
+  {
+    "id": "related-work-depth",
+    "domain": "manufacturing and design",
+    "task": "Revise this related-work paragraph to connect its ideas. Do not remove the operational explanations needed by non-specialists.",
+    "facts": "All citations are supplied placeholders for this exercise, not sources to retrieve. A partitions a surface, places components, varies curvature and size. B matches boundary ports before adjusting component geometry. Current paper examines joint choices for components sharing a restricted area. No claim that either prior work universally fails.",
+    "draft": "A [1] divides the surface into regions and places a component in each. Its parameters change curvature and size. B [2] first matches boundary ports and then adjusts geometry to smooth the joins. However, A does not use our joint algorithm. B also does not use our joint algorithm. Thus, our joint algorithm is needed.",
+    "checks": [
+      "retain mechanisms not just labels",
+      "synthesize related ideas",
+      "concrete shared-area issue",
+      "no failure claims or method-absence gap"
+    ]
+  },
+  {
+    "id": "bilingual-operation",
+    "domain": "image-analysis workflow",
+    "task": "Correct only the English paragraph to match the Chinese source, keeping fluent academic English. Do not change the Chinese.",
+    "facts": "Chinese: 先将图像区域分组，经人工校正后矢量化，支持整组移动和单个元素删除。六组参数下，分组一致率为81%–96%。The percentage range summarizes six settings, not a confidence interval.",
+    "draft": "The system automatically recovers objects after vectorization and supports only whole-group editing. Grouping agreement was 81–96% (95% confidence interval), proving robustness.",
+    "checks": [
+      "order grouping correction vectorization",
+      "manual correction",
+      "both operation levels",
+      "range across settings not CI",
+      "no automatic or robustness invention"
+    ]
+  },
+  {
+    "id": "retain-clear-text",
+    "domain": "materials science",
+    "task": "Check this sentence for awkwardness. Change it only if necessary.",
+    "facts": "Temperature, time, and sequence are correct. The preceding sentence identifies the material samples.",
+    "draft": "Samples were dried at 60 °C for 24 h before weighing.",
+    "checks": [
+      "retain clear sentence",
+      "no added procedures or caveats",
+      "brief direct response"
+    ]
+  },
+  {
+    "id": "randomized-positive-effect",
+    "domain": "randomized greenhouse experiment",
+    "task": "Make the wording direct and objective; remove audit-style filler, but preserve what the experiment established.",
+    "facts": "120 seedlings assigned equally at random to fertilizer and control. Mean height difference after 30 days: 3.2 cm, 95% CI 1.4–5.0 cm. Design and analysis support a treatment-effect statement for the experimental conditions.",
+    "draft": "All procedures were checked and locked. The fertilizer increased mean seedling height by 3.2 cm at 30 days (95% CI 1.4–5.0 cm). However, we cannot exclude the possibility that entirely different ecosystems would reverse the effect, so the treatment should be described only as associated with growth.",
+    "checks": [
+      "retain supported treatment-effect statement",
+      "preserve estimate and interval",
+      "remove speculative reversal and process status",
+      "no automatic weakening to association"
+    ]
+  },
+  {
+    "id": "shared-power-motivation",
+    "domain": "robotics component selection",
+    "task": "Rewrite into a connected Introduction paragraph; keep mechanism explanations and establish why the research question matters.",
+    "facts": "A selects sensors one at a time by local detection scores. B selects mounts by pairwise mechanical fit. Sensors share a fixed power supply; adding a high-power sensor reduces power available to remaining sensors. Current study jointly selects a set for detection and total power. No evidence of general failure of A or B.",
+    "draft": "A [1] ranks sensors by their detection score and selects them one at a time. B [2] checks whether each pair of mounts can fit mechanically. Neither uses our joint selection model. Our study therefore proposes a joint model.",
+    "checks": [
+      "retain prior mechanisms",
+      "explain shared resource consequence",
+      "no fieldwide failure or invented outcome",
+      "problem leads to study"
+    ]
+  }
+]
